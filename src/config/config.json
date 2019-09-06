@@ -1,0 +1,39 @@
+{
+  "development": {
+    "username": "herissonsilvahs",
+    "password": "h1s2prog",
+    "database": "api_test_dev",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false,
+    "logging": false,
+    "define": {
+      "timestamps": true,
+      "underscored": true,
+      "underscoredAll": true
+    }
+  },
+  "test": {
+    "username": "",
+    "password": "",
+    "database": "api_test_test",
+    "host": "",
+    "storage": "./__tests__/database.sqlite",
+    "dialect": "sqlite",
+    "operatorsAliases": false,
+    "logging": false,
+    "define": {
+      "timestamps": true,
+      "underscored": true,
+      "underscoredAll": true
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  }
+}
